@@ -20,8 +20,9 @@ Download and run Tiled server using a pixi manifest.
     pixi run start
     ```
 
-4. Open a web browser and paste the URL from the terminal output.
+4. Open a web browser and paste the URL from the terminal output. Include the API key.
 
-   
+    Example: <http://127.0.0.1:8000?api_key=461e08317...>
+
 ---
 This was created as a Learning Week demonstration, March 2026.
