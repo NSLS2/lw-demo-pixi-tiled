@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Padraic Shafer <pshafer@bnl.gov>"]
+channels = ["conda-forge"]
+name = "tiled-demo"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+start = "python -c 'from tiled.client import simple; simple(); input(\"Press <ENTER> to stop the Tiled server.\")'"
+
+[dependencies]
+python = ">=3.12"
+tiled = ">=0.2.8"
