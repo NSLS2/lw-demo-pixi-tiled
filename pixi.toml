@@ -6,7 +6,7 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
-start = "python -c 'from tiled.client import simple; simple(); input(\"Press <ENTER> to stop the Tiled server.\")'"
+start = "tiled serve demo"
 
 [dependencies]
 python = ">=3.12"
